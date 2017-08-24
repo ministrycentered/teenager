@@ -16,6 +16,11 @@ class TeenagerTest < MiniTest::Unit::TestCase
     assert_equal 'Woah, chill out!', teenager.hey('WATCH OUT!')
   end
 
+  def test_shouting_without_exclamation
+    skip
+    assert_equal 'Woah, chill out!', teenager.hey('TAKE A SHOWER.')
+  end
+
   def test_asking_a_question
     skip
     assert_equal 'Sure.', teenager.hey('Does this cryogenic chamber make me look fat?')
