@@ -2,7 +2,7 @@ require 'minitest/autorun'
 require 'minitest/pride'
 require_relative '../lib/teenager'
 
-class TeenagerTest < MiniTest::Unit::TestCase
+class TeenagerTest < MiniTest::Test
   def teenager
     Teenager.new
   end
